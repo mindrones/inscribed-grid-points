@@ -1,0 +1,12 @@
+dist
+
+# npm
+node_modules
+npm-debug.log
+
+# https://github.com/shinnn/gulp-gh-pages
+.ghpcache
+.publish
+
+# macos
+.DS_Store
