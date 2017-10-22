@@ -1,0 +1,41 @@
+html,
+svg,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  overflow: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+line {
+  stroke: red;
+  stroke-width: 2;
+}
+line.horizontal {
+  stroke: green;
+}
+line.x,
+line.y {
+  stroke: lightgrey;
+  stroke-width: 0.5;
+}
+circle {
+  stroke: none;
+}
+circle.vertex {
+  fill: orange;
+}
+circle.dot {
+  fill: none;
+  stroke: black;
+}
+circle text {
+  fill: lightgrey;
+  stroke: none;
+  user-select: none;
+}
