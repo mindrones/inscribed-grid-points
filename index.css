@@ -14,7 +14,7 @@ body {
 }
 line {
   stroke: red;
-  stroke-width: 2;
+  stroke-width: 0.5;
 }
 line.horizontal {
   stroke: green;
